@@ -1,5 +1,6 @@
 # get-the-timezone-time
 Get time in your timezone
+Avaible 4 countries: Italy, UK, Germany, Japan :^)
 
 Start the server up
 
