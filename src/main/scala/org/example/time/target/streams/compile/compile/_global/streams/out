@@ -1,0 +1,70 @@
+[0m[[0m[31merror[0m] [0m[0m/home/newbinion/niko-work/scala/get-the-timezone-time/src/main/scala/org/example/time/TimeApi.scala:5:8: not found: object cats[0m
+[0m[[0m[31merror[0m] [0m[0mimport cats.effect.IO[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/newbinion/niko-work/scala/get-the-timezone-time/src/main/scala/org/example/time/TimeApi.scala:6:12: object http4s is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.http4s.HttpRoutes[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/newbinion/niko-work/scala/get-the-timezone-time/src/main/scala/org/example/time/TimeApi.scala:7:12: object http4s is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.http4s.dsl.Http4sDsl[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/newbinion/niko-work/scala/get-the-timezone-time/src/main/scala/org/example/time/TimeApi.scala:9:23: not found: type Http4sDsl[0m
+[0m[[0m[31merror[0m] [0m[0mclass TimeApi extends Http4sDsl[IO] {[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/newbinion/niko-work/scala/get-the-timezone-time/src/main/scala/org/example/time/TimeApi.scala:13:19: not found: value HttpRoutes[0m
+[0m[[0m[31merror[0m] [0m[0m    val service = HttpRoutes.of[IO] {[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/newbinion/niko-work/scala/get-the-timezone-time/src/main/scala/org/example/time/TimeApi.scala:13:33: not found: type IO[0m
+[0m[[0m[31merror[0m] [0m[0m    val service = HttpRoutes.of[IO] {[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/newbinion/niko-work/scala/get-the-timezone-time/src/main/scala/org/example/time/TimeApi.scala:14:18: not found: value ->[0m
+[0m[[0m[31merror[0m] [0m[0m        case GET -> Root / "datetime" / country =>[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/newbinion/niko-work/scala/get-the-timezone-time/src/main/scala/org/example/time/TimeApi.scala:14:14: not found: value GET[0m
+[0m[[0m[31merror[0m] [0m[0m        case GET -> Root / "datetime" / country =>[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/newbinion/niko-work/scala/get-the-timezone-time/src/main/scala/org/example/time/TimeApi.scala:14:39: not found: value /[0m
+[0m[[0m[31merror[0m] [0m[0m        case GET -> Root / "datetime" / country =>[0m
+[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/newbinion/niko-work/scala/get-the-timezone-time/src/main/scala/org/example/time/TimeApi.scala:14:26: not found: value /[0m
+[0m[[0m[31merror[0m] [0m[0m        case GET -> Root / "datetime" / country =>[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/newbinion/niko-work/scala/get-the-timezone-time/src/main/scala/org/example/time/TimeApi.scala:14:21: not found: value Root[0m
+[0m[[0m[31merror[0m] [0m[0m        case GET -> Root / "datetime" / country =>[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/newbinion/niko-work/scala/get-the-timezone-time/src/main/scala/org/example/time/TimeApi.scala:16:17: not found: value Ok[0m
+[0m[[0m[31merror[0m] [0m[0m                Ok(printer.now(country))[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/newbinion/niko-work/scala/get-the-timezone-time/src/main/scala/org/example/time/TimeApi.scala:18:54: not found: value NotFound[0m
+[0m[[0m[31merror[0m] [0m[0m                case ex: IllegalArgumentException => NotFound(ex.getMessage)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/newbinion/niko-work/scala/get-the-timezone-time/src/main/scala/org/example/time/TimeApp.scala:3:8: not found: object cats[0m
+[0m[[0m[31merror[0m] [0m[0mimport cats.effect.{ExitCode, IO, IOApp}[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/newbinion/niko-work/scala/get-the-timezone-time/src/main/scala/org/example/time/TimeApp.scala:4:12: object http4s is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.http4s.implicits._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/newbinion/niko-work/scala/get-the-timezone-time/src/main/scala/org/example/time/TimeApp.scala:5:12: object http4s is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.http4s.server.Router[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/newbinion/niko-work/scala/get-the-timezone-time/src/main/scala/org/example/time/TimeApp.scala:6:12: object http4s is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.http4s.blaze.server.BlazeServerBuilder[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/newbinion/niko-work/scala/get-the-timezone-time/src/main/scala/org/example/time/TimeApp.scala:10:24: not found: type IOApp[0m
+[0m[[0m[31merror[0m] [0m[0mobject TimeApp extends IOApp {[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/newbinion/niko-work/scala/get-the-timezone-time/src/main/scala/org/example/time/TimeApp.scala:12:27: not found: value Router[0m
+[0m[[0m[31merror[0m] [0m[0m    private val httpApp = Router([0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/newbinion/niko-work/scala/get-the-timezone-time/src/main/scala/org/example/time/TimeApp.scala:13:30: value routes is not a member of org.example.time.TimeApi[0m
+[0m[[0m[31merror[0m] [0m[0m        "/" -> new TimeApi().routes[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/newbinion/niko-work/scala/get-the-timezone-time/src/main/scala/org/example/time/TimeApp.scala:16:43: not found: type IO[0m
+[0m[[0m[31merror[0m] [0m[0m    override def run(args: List[String]): IO[ExitCode] = [0m
+[0m[[0m[31merror[0m] [0m[0m                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/newbinion/niko-work/scala/get-the-timezone-time/src/main/scala/org/example/time/TimeApp.scala:20:9: not found: value BlazeServerBuilder[0m
+[0m[[0m[31merror[0m] [0m[0m        BlazeServerBuilder[IO] (ExecutionContext.global)[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/newbinion/niko-work/scala/get-the-timezone-time/src/main/scala/org/example/time/TimeApp.scala:20:28: not found: type IO[0m
+[0m[[0m[31merror[0m] [0m[0m        BlazeServerBuilder[IO] (ExecutionContext.global)[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m23 errors found[0m

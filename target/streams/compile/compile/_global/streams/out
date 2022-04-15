@@ -1,0 +1,15 @@
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E008] Not Found Error: /home/newbinion/niko-work/scala/get-the-timezone-time/src/main/scala/org/example/time/TimeApp.scala:13:29 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m13 |[0m        [31m"/"[0m -> [33mnew[0m [35mTimeApi[0m().routes[0m
+[0m[[0m[31merror[0m] [0m[0m   |               [31m^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |               value routes is not a member of org.example.time.TimeApi[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /home/newbinion/niko-work/scala/get-the-timezone-time/src/main/scala/org/example/time/TimeApp.scala:14:5 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m14 |[0m    ).orNotFound[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |Could not find an instance of Monad for ([_] =>> Any)[0m
+[0m[[0m[31merror[0m] [0m[0m   |[0m
+[0m[[0m[31merror[0m] [0m[0m   |One of the following imports might make progress towards fixing the problem:[0m
+[0m[[0m[31merror[0m] [0m[0m   |[0m
+[0m[[0m[31merror[0m] [0m[0m   |  import fs2.Compiler.Target.forConcurrent[0m
+[0m[[0m[31merror[0m] [0m[0m   |  import fs2.Compiler.Target.forSync[0m
+[0m[[0m[31merror[0m] [0m[0m   |[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
